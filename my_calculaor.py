@@ -26,7 +26,7 @@ num1=int(input("Enter your first number: "))
 operator=input("Enter an operator i.e : + - * / % : ")
 # print(type(operator))
 num2=int(input("Enter your second number: "))
-def calculate (num1, operaotr, num2):
+def calculate (num1, operator, num2):
     if operator=='+':
         return num1+num2
     elif operator=='-':
